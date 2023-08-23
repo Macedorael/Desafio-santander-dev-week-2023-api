@@ -8,7 +8,7 @@ from functools import update_wrapper
 df = pd.read_csv('santander.csv.txt')
 user_ids = df['UserID'].tolist()
 santander = 'https://sdw-2023-prd.up.railway.app'
-openai_api_key = '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'
+openai_api_key = ''
 openai.api_key = openai_api_key
 
 def get_user(id):
